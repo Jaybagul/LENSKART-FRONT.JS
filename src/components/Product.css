@@ -1,0 +1,95 @@
+.card {
+    width: 18rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.card-text .text-danger {
+    font-weight: 700;
+}
+
+.discount-info {
+    background-color: #f7f7d4;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #8d6708;
+    border-top: 1px solid #d1d1d1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.discount-info span {
+    font-weight: 700;
+}
+/* .product1{
+    display: block;
+}
+.pic .product2{
+    display: none;
+}
+.pic:hover .product2{
+    display: block;
+}
+.pic:hover .product1{
+    display: none; */
+/* } */
+body {
+    font-family: Arial, sans-serif;
+}
+.card-ac{
+    color: black;
+    text-decoration: none;
+
+    p{
+        
+        font-size: 16px;
+        font-weight: 400;
+        font-family: poppins;
+        text-transform: uppercase;
+    }
+    p:hover{
+       color: #8d6708;
+    }
+    p:hover i{
+        color: #8d6708;
+    }
+    i{
+        color: darkred;
+    }
+}
+.btn-link{
+    text-decoration: none;
+}
+label{
+    font-family: poppins;
+    font-size: 15px;
+    padding: 4px;
+    color: gray;
+}
+label:hover{
+    color: black;
+}

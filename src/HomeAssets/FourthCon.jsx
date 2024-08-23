@@ -55,7 +55,7 @@ const FourthCon = () => {
                 <div class="carousel-item">
                   <div class="row">
                     <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 product-card">
-                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/image179.png" alt="Round Glasses" />
+                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/trans.jpg" alt="Round Glasses" />
                       <h5>Round</h5>
                       <Link to={"/product"}>
                         <button>Explore</button>
@@ -63,7 +63,7 @@ const FourthCon = () => {
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 product-card">
-                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/cateeye.jpg" alt="Cat-Eye Glasses" />
+                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/clipon.jpg" alt="Cat-Eye Glasses" />
                       <h5>Cat-Eye</h5>
                       <Link to={"/product"}>
                         <button>Explore</button>
@@ -71,7 +71,7 @@ const FourthCon = () => {
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 product-card">
-                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/clubmaster.jpg" alt="Clubmaster Glasses" />
+                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/airflex.jpg" alt="Clubmaster Glasses" />
                       <h5>Clubmaster</h5>
                       <Link to={"/product"}>
                         <button>Explore</button>
@@ -79,7 +79,7 @@ const FourthCon = () => {
                     </div>
 
                     <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 product-card">
-                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/trans.jpg" alt="Transparent Glasses" />
+                      <img src="https://static1.lenskart.com/media/desktop/img/Sep21/airflex.jpg" alt="Transparent Glasses" />
                       <h5>Transparent</h5>
                       <Link to={"/product"}>
                         <button>Explore</button>

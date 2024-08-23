@@ -17,7 +17,7 @@ const Fifth = () => {
           <Link to="/product">
             <img
               className="d-block w-100 img-fluid"
-              src="src/assets/karan.webp"
+              src="https://static1.lenskart.com/media/desktop/img/Dec22/Web_banner.gif"
               alt="Karan Johar"
             />
           </Link>

@@ -46,7 +46,7 @@ const Home = ({ handleCategoryChange }) => {
               <div className="card" style={{ width: "100%" }}>
                 <img src="https://static1.lenskart.com/media/desktop/img/Apr22/a2.png" className="card-img-top" alt="Eyeglasses" />
                 <div className="card-body text-center">
-                  <p className="card-text" onClick={() => handleCategoryChange('Eyeglasses')}>Eyeglasses</p>
+                  <p className="card-text" style={{ textDecoration: "none" }} onClick={() => handleCategoryChange('Eyeglasses')}>Eyeglasses</p>
                   {/* <div className="text">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos optio, expedita error quis voluptatem maxime non minus! Modi illo temporibus quo obcaecati consequuntur optio distinctio? Hic aspernatur illum officia saepe?</p>
                   </div> */}
@@ -59,7 +59,7 @@ const Home = ({ handleCategoryChange }) => {
               <div className="card" style={{ width: "100%" }}>
                 <img src="https://static1.lenskart.com/media/desktop/img/Apr22/b2.png" className="card-img-top" alt="Sunglasses" />
                 <div className="card-body text-center">
-                  <p className="card-text">Sunglasses</p>
+                  <p className="card-text" style={{ textDecoration: "none" }}>Sunglasses</p>
                 </div>
               </div>
             </Link>
@@ -69,7 +69,7 @@ const Home = ({ handleCategoryChange }) => {
               <div className="card" style={{ width: "100%" }}>
                 <img src="https://static1.lenskart.com/media/desktop/img/Apr22/d2.png" className="card-img-top" alt="Screen Glasses" />
                 <div className="card-body text-center">
-                  <p className="card-text">Screen Glasses</p>
+                  <p className="card-text" style={{ textDecoration: "none" }}>Screen Glasses</p>
                 </div>
               </div>
             </Link>
@@ -79,7 +79,7 @@ const Home = ({ handleCategoryChange }) => {
               <div className="card" style={{ width: "100%" }}>
                 <img src="https://static1.lenskart.com/media/desktop/img/Apr22/d.png" className="card-img-top" alt="Contact Lenses" />
                 <div className="card-body text-center">
-                  <p className="card-text">Contact Lenses</p>
+                  <p className="card-text" style={{ textDecoration: "none" }}>Contact Lenses</p>
                 </div>
               </div>
             </Link>
@@ -89,7 +89,7 @@ const Home = ({ handleCategoryChange }) => {
               <div className="card" style={{ width: "100%" }}>
                 <img src="https://static1.lenskart.com/media/desktop/img/Apr22/e2.png" className="card-img-top" alt="Power Sunglasses" />
                 <div className="card-body text-center">
-                  <p className="card-text">Power Sunglasses</p>
+                  <p className="card-text" style={{ textDecoration: "none" }}>Power Sunglasses</p>
                 </div>
               </div>
             </Link>
@@ -99,7 +99,7 @@ const Home = ({ handleCategoryChange }) => {
               <div className="card" style={{ width: "100%" }}>
                 <img src="https://static1.lenskart.com/media/desktop/img/June22/prog11.jpg" className="card-img-top" alt="Progressive Lenses" />
                 <div className="card-body text-center">
-                  <p className="card-text">Progressive Lenses</p>
+                  <p className="card-text" style={{ textDecoration: "none" }}>Progressive Lenses</p>
                 </div>
               </div>
             </Link>

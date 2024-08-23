@@ -14,27 +14,27 @@ const ThirdCon = () => {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="1000">
             <Link to="/product">
-              <img src="src/assets/Coastline.webp" className="d-block w-100" alt="Premium Eyewear 1" />
+              <img src="https://static1.lenskart.com/media/desktop/img/republic/hustlr-ace/Hustlr_Ace_Desktop_Banner.gif" className="d-block w-100" alt="Premium Eyewear 1" />
             </Link>
           </div>
           <div className="carousel-item" data-bs-interval="2000">
             <Link to="/product">
-              <img src="src/assets/Desktop-GIF.gif" className="d-block w-100" alt="Premium Eyewear 2" />
+              <img src="https://static1.lenskart.com/media/desktop/img/2024/feb/IN/Sobhita/Desktop.png" className="d-block w-100" alt="Premium Eyewear 2" />
             </Link>
           </div>
           <div className="carousel-item" data-bs-interval="3000">
             <Link to="/product">
-              <img src="src/assets/Desktop.webp" className="d-block w-100" alt="Premium Eyewear 3" />
+              <img src="https://static5.lenskart.com/media/uploads/Web_Banner_Refresh.jpg" className="d-block w-100" alt="Premium Eyewear 3" />
             </Link>
           </div>
           <div className="carousel-item" data-bs-interval="5000">
             <Link to="/product">
-              <img src="src/assets/Web-banner option 2.webp" className="d-block w-100" alt="Premium Eyewear 4" />
+              <img src="https://static1.lenskart.com/media/desktop/img/oct9/hd-acetate/Option%201%20static.jpg" className="d-block w-100" alt="Premium Eyewear 4" />
             </Link>
           </div>
           <div className="carousel-item" data-bs-interval="6000">
             <Link to="/product">
-              <img src="src/assets/web-banner.webp" className="d-block w-100" alt="Premium Eyewear 5" />
+              <img src="https://static1.lenskart.com/media/desktop/img/sep22/jj-titanium/Web-Banner.gif" className="d-block w-100" alt="Premium Eyewear 5" />
             </Link>
           </div>
         </div>

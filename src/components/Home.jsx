@@ -61,51 +61,51 @@ const Home = ({ handleCategoryChange }) => {
                 <div className="card-body text-center">
                   <p className="card-text" style={{ textDecoration: "none" }}>Sunglasses</p>
                 </div>
+              </div> 
+          </Link>
+        </div>
+        <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+          <Link to={"/product"}>
+            <div className="card" style={{ width: "100%" }}>
+              <img src="https://static1.lenskart.com/media/desktop/img/Apr22/d2.png" className="card-img-top" alt="Screen Glasses" />
+              <div className="card-body text-center">
+                <p className="card-text" style={{ textDecoration: "none" }}>Screen Glasses</p>
               </div>
-            </Link>
-          </div>
-          <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-            <Link to={"/product"}>
-              <div className="card" style={{ width: "100%" }}>
-                <img src="https://static1.lenskart.com/media/desktop/img/Apr22/d2.png" className="card-img-top" alt="Screen Glasses" />
-                <div className="card-body text-center">
-                  <p className="card-text" style={{ textDecoration: "none" }}>Screen Glasses</p>
-                </div>
+            </div>
+          </Link>
+        </div>
+        <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+          <Link to={"/product"}>
+            <div className="card" style={{ width: "100%" }}>
+              <img src="https://static1.lenskart.com/media/desktop/img/Apr22/d.png" className="card-img-top" alt="Contact Lenses" />
+              <div className="card-body text-center">
+                <p className="card-text" style={{ textDecoration: "none" }}>Contact Lenses</p>
               </div>
-            </Link>
-          </div>
-          <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-            <Link to={"/product"}>
-              <div className="card" style={{ width: "100%" }}>
-                <img src="https://static1.lenskart.com/media/desktop/img/Apr22/d.png" className="card-img-top" alt="Contact Lenses" />
-                <div className="card-body text-center">
-                  <p className="card-text" style={{ textDecoration: "none" }}>Contact Lenses</p>
-                </div>
+            </div>
+          </Link>
+        </div>
+        <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+          <Link to={"/product"}>
+            <div className="card" style={{ width: "100%" }}>
+              <img src="https://static1.lenskart.com/media/desktop/img/Apr22/e2.png" className="card-img-top" alt="Power Sunglasses" />
+              <div className="card-body text-center">
+                <p className="card-text" style={{ textDecoration: "none" }}>Power Sunglasses</p>
               </div>
-            </Link>
-          </div>
-          <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-            <Link to={"/product"}>
-              <div className="card" style={{ width: "100%" }}>
-                <img src="https://static1.lenskart.com/media/desktop/img/Apr22/e2.png" className="card-img-top" alt="Power Sunglasses" />
-                <div className="card-body text-center">
-                  <p className="card-text" style={{ textDecoration: "none" }}>Power Sunglasses</p>
-                </div>
+            </div>
+          </Link>
+        </div>
+        <div className="col-lg-2 col-md-3 col-sm-4 col-6">
+          <Link to={"/product"}>
+            <div className="card" style={{ width: "100%" }}>
+              <img src="https://static1.lenskart.com/media/desktop/img/June22/prog11.jpg" className="card-img-top" alt="Progressive Lenses" />
+              <div className="card-body text-center">
+                <p className="card-text" style={{ textDecoration: "none" }}>Progressive Lenses</p>
               </div>
-            </Link>
-          </div>
-          <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-            <Link to={"/product"}>
-              <div className="card" style={{ width: "100%" }}>
-                <img src="https://static1.lenskart.com/media/desktop/img/June22/prog11.jpg" className="card-img-top" alt="Progressive Lenses" />
-                <div className="card-body text-center">
-                  <p className="card-text" style={{ textDecoration: "none" }}>Progressive Lenses</p>
-                </div>
-              </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
+    </div >
       <Link to={"/product"}>
         <div className="conatiner">
           <div className="row">

@@ -7,7 +7,7 @@ const Eighth = () => {
       <div className="row">
         <div className="col-12">
           <img
-            src="src/assets/Do more.webp"
+            src="https://static1.lenskart.com/media/desktop/img/Apr22/Bannerforexport.jpg"
             className="img-fluid w-100"
             alt="Do more"
           />

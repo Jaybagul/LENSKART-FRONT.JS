@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Eleventh = () => {
   return (
     <>
-      {/* Eyeglasses and Sunglasses Section */}
+
       <div className="container mb-5" style={{ margin: 'auto', width: '80%' }}>
 
-        {/* Eyeglasses Section */}
+
         <div className="row mt-5 mb-3">
           <div className="col-12">
             <h4 className="text">EYEGLASSES</h4>
@@ -30,7 +30,7 @@ const Eleventh = () => {
           ))}
         </div>
 
-        {/* Sunglasses Section */}
+
         <div className="row mt-5 pt-2">
           <div className="col-12">
             <h4 className="text">SUNGLASSES</h4>

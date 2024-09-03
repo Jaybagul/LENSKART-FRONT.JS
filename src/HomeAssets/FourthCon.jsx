@@ -112,7 +112,7 @@ const FourthCon = () => {
         <div className="row">
           <div className="col-12">
             <Link to="/product">
-              <img src="src/assets/fourth.webp" className="d-block w-100"
+              <img src="https://static1.lenskart.com/media/desktop/img/Dec22/1-Dec/Homepage-Banner-web.gif" className="d-block w-100"
                 alt="As Seen on Shark Tank"
                 style={{ borderRadius: '8px' }}
               />

@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Import local image
-import ContactImage from 'src/assets/contact.jpg';
-
 const Thirteen = () => {
     return (
         <>
@@ -47,7 +44,7 @@ const Thirteen = () => {
                 <div className="row">
                     <div className="col-12">
                         <img
-                            src={ContactImage}
+
                             className="d-block w-100 img-fluid"
                             alt="Contact Information"
                         />

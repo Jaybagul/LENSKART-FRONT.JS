@@ -2,71 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Import local images
-import Eyeglass1 from 'src/assets/eyeglass1.webp';
-import Eyeglass2 from 'src/assets/eyeglass2.webp';
-import Eyeglass3 from 'src/assets/eyeglass3.webp';
-import Sunglass1 from 'src/assets/sunglass1.webp';
-import Sunglass2 from 'src/assets/sunglass2.webp';
-import Sunglass3 from 'src/assets/sunglass3.webp';
-import AdditionalImage from 'src/assets/eleventh.webp';
+
 
 const Eleventh = () => {
   return (
     <>
-      {/* Eyeglasses and Sunglasses Section */}
-      <div className="container mb-5" style={{ margin: 'auto', width: '80%' }}>
 
-        {/* Eyeglasses Section */}
-        <div className="row mt-5 mb-3">
-          <div className="col-12">
-            <h4 className="text">EYEGLASSES</h4>
-            <hr />
-          </div>
-          {[Eyeglass1, Eyeglass2, Eyeglass3].map((img, index) => (
-            <div key={index} className="col-12 col-sm-6 col-md-4 mb-4">
-              <Link to="/product">
-                <img
-                  src={img}
-                  className="img-fluid"
-                  alt={`Eyeglass ${index + 1}`}
-                />
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        {/* Sunglasses Section */}
-        <div className="row mt-5 pt-2">
-          <div className="col-12">
-            <h4 className="text">SUNGLASSES</h4>
-            <hr />
-          </div>
-          {[Sunglass1, Sunglass2, Sunglass3].map((img, index) => (
-            <div key={index} className="col-12 col-sm-6 col-md-4 mb-4">
-              <Link to="/product">
-                <img
-                  src={img}
-                  className="img-fluid"
-                  alt={`Sunglass ${index + 1}`}
-                />
-              </Link>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Additional Image Section */}
-      <div className="container mt-3 mb-5">
+      <div className="container">
         <div className="row">
-          <div className="col-12">
-            <img
-              src={AdditionalImage}
-              className="img-fluid d-block w-100"
-              alt="Additional Content"
-            />
-          </div>
+          <div className="col-3"><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/371x178/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-e10235-c7-eyeglasses_g_2375_image_pla.jpg" alt="" /></div>
+          <div className="col-3"><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/371x178/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-e11675-c2-eyeglasses_g_0134.jpg" alt="" /></div>
+          <div className="col-3"><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/371x178/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-rimless-jj-e12565-c2-eyeglasses_john-jacobs-rimless-jj-e12565-c2-eyeglasses_g_3200.jpg" alt="" /></div>
         </div>
       </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-3"><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/371x178/9df78eab33525d08d6e5fb8d27136e95//j/i/grey-gradient-black-full-rim-wayfarer-john-jacobs-jj-tints-jj-s13227-c4-sunglasses_csvfile-1708406002394-img_7007.jpg" alt="" /></div>
+          <div className="col-3"><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/371x178/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-s12808-c2-sunglasses_g_8841.jpg" alt="" /></div>
+          <div className="col-3"><img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/371x178/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-s12808-c1-sunglasses_g_8864_image_pla.jpg" alt="" /></div>
+        </div>
+      </div>
+
     </>
   );
 };

@@ -15,7 +15,7 @@ const TenthCon = () => {
             <img src="https://static1.lenskart.com/media/desktop/img/republic/celb-new/call.png" className="d-block w-100 img-fluid" alt="Image 1" />
           </div>
           <div className="col-md-6 col-sm-12 p-2">
-            <img src="https://static1.lenskart.com/media/desktop/img/republic/celb-new/call.png" className="d-block w-100 img-fluid" alt="Image 2" />
+            <img src="https://static1.lenskart.com/media/desktop/img/republic/celb-new/call.png " className="d-block w-100 img-fluid" alt="Image 2" />
           </div>
         </div>
         <div className="row mt-3">

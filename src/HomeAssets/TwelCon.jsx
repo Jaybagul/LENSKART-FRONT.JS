@@ -51,7 +51,7 @@ const TwelCon = () => {
             <div className="container mt-5 mb-5">
                 <div className="row">
                     <div className="col-12">
-                        <img src="src/assets/hopper.webp" className="d-block w-100 img-fluid" alt="Additional Content" />
+                        <img src="https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner05_Final2ndDec21.jpg" className="d-block w-100 img-fluid" alt="Additional Content" />
                     </div>
                 </div>
             </div>

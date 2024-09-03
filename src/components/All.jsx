@@ -23,7 +23,6 @@ const All = () => {
         <Route path="/login" element={<Login />} />
         {/* <Route path="/wish/:id" element={<WishList />} /> */}
         <Route path="/singlepage/:id" element={<Description />} />
-
         <Route path="*" element={<NotFound />} />
       </Routes>
     </ProductProvider>

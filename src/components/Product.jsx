@@ -56,7 +56,7 @@ const Product = () => {
       .then((res) => {
         console.log(res)
         alert('Product added to wishlist!');
-        navigate("/wish/:id")
+
 
       })
       .catch((err) => console.log(err))
@@ -154,7 +154,7 @@ const Product = () => {
             </div>
             <div className="col-12 col-md-9 col-lg-10 m-sm-auto mt-5 pt-4" >
               <div className="container">
-                <div className="row" style={{ display: 'grid', gridTemplateColumns: "repeat(auto-fill, minmax(290px, 1fr))", gap: "18px", textAlign: 'left' }}>
+                <div className="row" style={{ display: 'grid', gridTemplateColumns: "repeat(auto-fill, minmax(  290px, 1fr))", gap: "18px", textAlign: 'left' }}>
                   {value.map((el) => (
                     <div key={el.id} className="card p-0 m-0 m-auto" style={{ backgroundColor: '#ffffff' }}>
                       <div style={{ float: 'right' }}>
